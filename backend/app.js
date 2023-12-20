@@ -24,8 +24,12 @@ mongoose.connection.on('error', (error) => {
 require('./models/user_model')
 require('./models/tweet_model')
 
+const corsOptions = {
+    origin: "https://twitter-clone-frontend-42gm.onrender.com", 
+}
 
-app.use(cors());
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 
