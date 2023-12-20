@@ -1,0 +1,49 @@
+.sidebar {
+    height: 100vh !important;
+    position: fixed;
+}
+
+.nav-btn:focus {
+    color: blue !important;
+
+}
+
+.profile-pic {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        position: relative;
+    }
+
+}
+
+.tweet-img {
+    height: 450px;
+    width: 100%;
+}
+
+
+.liked {
+    color: red;
+}
+
+.link {
+    text-decoration: none !important;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+.tweet {
+    text-decoration: none !important;
+    color: black !important;
+}

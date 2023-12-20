@@ -1,0 +1,12 @@
+
+.profile-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+
+.tweet{
+    text-decoration: none !important;
+    color: black !important;
+}

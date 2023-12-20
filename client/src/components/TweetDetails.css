@@ -1,0 +1,14 @@
+.link {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.link:hover {
+    text-decoration: none !important;
+    color: blue !important;
+}
+
+.tweet {
+    text-decoration: none !important;
+    color: black !important;
+}

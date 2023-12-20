@@ -1,0 +1,11 @@
+.bg-container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+}
+
+.image{
+    height: 100% !important;
+    width: 100% !important;
+}
