@@ -12,7 +12,7 @@ const MongoDB_URL = process.env.MongoDB_URL
 
 global.__basedir = __dirname;
 
-mongoose.connect(MongoDB_URL);
+mongoose.connect(DATABASE);
 
 mongoose.connection.on('connected', () => {
     console.log("DB connected");
